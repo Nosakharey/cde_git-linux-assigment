@@ -6,6 +6,7 @@ and version control with Git.
 
 ## Project Structure
 
+```
 cde/
 ├── script.sh # Main ETL script (Extract, Transform, Load)
 ├── mover_script.sh # Moves CSV/JSON files into a single folder
@@ -16,6 +17,7 @@ cde/
 ├── source_files/ # Sample files used to test mover_script.sh
 └── json_and_csv/ # Destination folder for moved CSV/JSON files
 
+```
 ## Part 1: ETL Script (`script.sh`)
 
 This script downloads a public dataset, transforms it, and loads the result
